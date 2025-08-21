@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.order-book {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bids, .asks {
+  width: 45%;
+}
+
+.bid-row {
+  background-color: #e6f7ff;
+}
+
+.ask-row {
+  background-color: #fff2e8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #1890ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #40a9ff;
+}
+
+.navbar {
+  background-color: #001529;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.navbar a:hover {
+  background-color: #1890ff;
+}
